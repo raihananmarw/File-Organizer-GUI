@@ -18,7 +18,7 @@ Aplikasi desktop sederhana berbasis Python + Tkinter untuk mengatur file secara 
 ## 📦 Struktur Proyek
 
 📁 FileOrganizer/
-├── file_organizer_gui_custom.py
+├── file_organizer.py
 ├── kategori.json # Dibuat otomatis jika belum ada
 ├── organize_log.json # Dibuat saat file dipindahkan
 
@@ -28,7 +28,7 @@ Aplikasi desktop sederhana berbasis Python + Tkinter untuk mengatur file secara 
 
 1. **Jalankan aplikasi:**
    ```bash
-   python file_organizer_gui_custom.py
+   python file_organizer.py
 Klik Pilih Folder & Organize → pilih folder yang ingin ditata.
 Klik Atur Kategori jika ingin menambah/mengubah kategori dan ekstensi.
 Gunakan tombol Undo Organize untuk mengembalikan semua file ke posisi semula (selama file organize_log.json belum dihapus).
